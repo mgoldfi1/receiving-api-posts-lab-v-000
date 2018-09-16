@@ -13,6 +13,12 @@
   <%= f.text_field :inventory %>
   <%= f.submit "submit" %>
 <% end %>
+<div id="postResult">
+  <h2 id="postTitle"></h2>
+  <p id="postBody"></p>
+</div>
+
+
 <script type="text/javascript" charset="utf-8">
   $(function () {
     $('form').submit(function(event) {
