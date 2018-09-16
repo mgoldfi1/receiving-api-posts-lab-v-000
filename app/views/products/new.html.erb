@@ -32,7 +32,7 @@
 
       posting.done(function(data) {
         var product = data;
-        $("#postTitle").text(post["title"]);
+        $("#productName").text(product["name"]);
         $("#postBody").text(post["description"]);
       });
     });
